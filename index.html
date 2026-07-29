@@ -120,7 +120,8 @@
 
   /* downloads */
   .dl{background:#fff;color:var(--head)}
-  .dl .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 30px;flex-wrap:wrap}
+  .dl .wrap{padding:16px 30px}
+  .dl-box{border:1px solid var(--line);border-radius:12px;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 24px;flex-wrap:wrap}
   .dl .lab{font-weight:600;font-size:15px}
   .dl .btns{display:flex;gap:12px;flex-wrap:wrap}
   .dl .btn svg{width:17px;height:17px}
@@ -366,10 +367,12 @@
 <!-- DESCARGAS -->
 <div class="dl">
   <div class="wrap">
-    <span class="lab">Descargá la ficha técnica completa y el manual del Dongfeng BOX</span>
+    <div class="dl-box">
+      <span class="lab">Descargá la ficha técnica completa y el manual del Dongfeng BOX</span>
     <div class="btns">
       <a class="btn btn-lt" href="https://www.dongfengmotors.com.ar/wp-content/uploads/2026/04/Ficha-t%C3%A9cnica-Dongfeng-BOX.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>Ficha técnica</a>
       <a class="btn btn-lt" href="https://www.dongfengmotors.com.ar/wp-content/uploads/2026/04/Manual-de-Usuario-Dongfeng-BOX-EV-1.pdf" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 5a2 2 0 0 1 2-2h6v16H6a2 2 0 0 0-2 2zM20 5a2 2 0 0 0-2-2h-6v16h6a2 2 0 0 1 2 2z"/></svg>Manual de usuario</a>
+    </div>
     </div>
   </div>
 </div>
@@ -608,7 +611,7 @@
           <li>Juana Manso 505 — Puerto Madero, CABA</li>
           <li><a href="https://wa.me/5491123153807" target="_blank" rel="noopener">WhatsApp: +54 11 2315-3807</a></li>
           <li><a href="mailto:infodongfeng@grupobavarian.com.ar">infodongfeng@grupobavarian.com.ar</a></li>
-          <li style="margin-top:6px;color:#fff;font-weight:600">Horario de atención</li>
+          <li style="margin-top:6px;color:#fff;font-weight:600">Horarios de atención</li>
           <li>Lunes a viernes: 09:30 a 19:00 h</li>
           <li>Sábados y feriados: 09:30 a 17:00 h</li>
         </ul>

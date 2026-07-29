@@ -99,9 +99,10 @@
   /* banner full-width + intro */
   .banner{position:relative;width:100%;background:var(--navy)}
   .banner-img{display:block;width:100%;height:clamp(300px,40vw,720px);object-fit:cover;object-position:70% center}
-  .banner-ov{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:0 clamp(24px,6vw,90px) clamp(22px,3.5vw,50px);background:linear-gradient(0deg,rgba(5,28,44,.66),rgba(5,28,44,.15) 46%,transparent)}
-  .banner-logo{height:clamp(40px,5vw,62px);width:auto;display:block;margin-bottom:30px}
-  .banner-q{color:#fff;font-weight:800;font-size:clamp(18px,4.2vw,50px);white-space:nowrap;line-height:1.1;text-shadow:0 2px 18px rgba(5,28,44,.45)}
+  .banner-ov{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:0 clamp(24px,6vw,90px) clamp(22px,3.5vw,50px);background:linear-gradient(0deg,rgba(5,28,44,.76),rgba(5,28,44,.22) 56%,transparent)}
+  .banner-logo{height:clamp(40px,5vw,62px);width:auto;display:block;margin-bottom:18px}
+  .banner-q{color:#fff;font-weight:800;font-size:clamp(26px,3.7vw,48px);max-width:min(860px,90%);line-height:1.14;text-shadow:0 2px 18px rgba(5,28,44,.5)}
+  .banner-q .hl{color:#F3DE8C}
   .intro{background:#fff;color:var(--text);text-align:center;padding:54px 0 40px}
   .intro .hero-sub{margin:0 auto 14px;color:var(--head)}
   .intro .lead{font-size:18px;color:var(--muted);max-width:620px;margin:0 auto 22px}
@@ -112,10 +113,10 @@
   .price-badge .pl{font-size:10.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--navy)}
   .price-badge .pv{font-size:clamp(26px,3.2vw,34px);font-weight:800;color:var(--head);letter-spacing:-.01em}
   .enabler{position:relative;z-index:2;border-top:1px solid var(--line);background:var(--mint)}
-  .enabler .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding:18px 30px}
-  .enabler .e{display:flex;align-items:center;gap:12px;padding:6px 20px;color:var(--head);font-weight:600;font-size:14.5px}
+  .enabler .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding:24px 30px}
+  .enabler .e{display:flex;align-items:center;gap:12px;padding:6px 20px;color:var(--head);font-weight:700;font-size:16px}
   .enabler .e+.e{border-left:1px solid var(--line)}
-  .enabler .e svg{flex:none;width:22px;height:22px;color:var(--navy)}
+  .enabler .e svg{flex:none;width:24px;height:24px;color:var(--navy)}
 
   /* downloads */
   .dl{background:#fff;color:var(--head)}
@@ -332,7 +333,7 @@
   <img class="banner-img" src="box-banner.jpg" alt="Dongfeng BOX en la ciudad" fetchpriority="high" />
   <div class="banner-ov">
     <img class="banner-logo" src="box-ev-blanco.png" alt="Dongfeng BOX EV" />
-    <h1 class="banner-q">¿Te movés siempre por la ciudad?</h1>
+    <h1 class="banner-q">El auto que necesitás para moverte por la ciudad, <span class="hl">financiado y con entrega inmediata</span></h1>
   </div>
 </section>
 
